@@ -1,6 +1,5 @@
 defmodule Sequences do
   import Math
-  use Ratio, override_math: false
 
   @moduledoc """
   The Sequences module defines multiple methods that return a Stream of numbers, usually integers.
